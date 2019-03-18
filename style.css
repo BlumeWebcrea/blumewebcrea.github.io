@@ -1,0 +1,66 @@
+* {
+  font-family: 'Segoe UI';
+}
+
+.nav {
+  background-color: #070454;
+  position: fixed;
+}
+
+.nav h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  font-weight: 500;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  background: linear-gradient(160deg, #2057B7, #102C5C);
+  border: none;
+}
+
+#first-section {
+  background-image: url(./background-blume.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#second-section {
+  background-image: url(./second-background.jpg);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  box-shadow: inset 4px 0px 5px rgba(0, 0, 0, 0.16);
+  width: 10px;
+  padding-left: 2px;
+  overflow: overlay;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  height: 10vh;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 10px;
+  height: 10vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  height: 10vh;
+}
