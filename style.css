@@ -21,14 +21,14 @@
 }
 
 #first-section {
-  background-image: url(./background-blume.jpg);
+  background-image: url(./assets/background-blume.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
 }
 
 #second-section {
-  background-image: url(./second-background.jpg);
+  background-image: url(./assets/second-background.jpg);
   background-position: center;
   height: 100vh;
   background-size: cover;
@@ -36,6 +36,17 @@
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+}
+
+#third-section {
+  background-image: url(./assets/third-background.jpg);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.row img {
+  max-width: 235px;
 }
 
 /* width */
