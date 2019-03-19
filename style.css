@@ -5,6 +5,7 @@
 .nav {
   background-color: #070454;
   position: fixed;
+  z-index: 500;
 }
 
 .nav h3 {
@@ -45,6 +46,18 @@
   background-size: cover;
 }
 
+#fourth-section {
+  height: 100vh;
+  flex-direction: column;
+}
+
+#fifth-section {
+  background-image: url(./assets/fifth-background.png);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+}
+
 .row img {
   max-width: 235px;
 }
@@ -74,4 +87,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #aaa;
   height: 10vh;
+}
+
+.carousel {
+    min-width: 450px;
+}
+
+.footer {
+  background-color: #302E2E;
 }
